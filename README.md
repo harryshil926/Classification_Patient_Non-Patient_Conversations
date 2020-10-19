@@ -1,4 +1,4 @@
 # Classification_Patient_Non-Patient_Conversations
 The conversations have been gathered by social listening teams from various stakeholders, social media, doctors, etc. The conversations have been manually tagged beforehand into patient and non-patient categories. The task is to build an intelligent workflow that extracts the patient conversations out. The data has been pre-processed to remove noiy elements out. Using TFIDF, feature vectors are formed based on the scores assigned to words. The dataset is highly imbalanced in nature in favour of the non-patient conversations. The conversations have been oversampled and undersampled accordingly for the SVM based classification algorithm to generalize well for both classes.
 
-<b> Note : Please check the Jupyter notebook to understand the entire project flow alongwith detailed explanations and visualizations.<b>
+<b> Note : The Jupyter notebook explains the entire project workflow. <b>
